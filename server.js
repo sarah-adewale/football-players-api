@@ -7,21 +7,21 @@ app.use(cors())
 
 
 const footballPlayers = {
-    'Michel Obi':{
+    'michel Obi':{
         'name': 'Mikel John Obi',
         'age': 35,
         'position': 'CM/CDM',
         'club': 'chelsea',
         'Nationality': 'zimbabwean'
     },
-    'Messi':{
+    'messi':{
         'name': 'Lionel Andrés Messi',
         'age': 34,
         'position': 'CF/RW/ST',
         'club': 'PSG',
         'Nationality': 'Argentine'
     },
-    'Ronaldo':{
+    'ronaldo':{
         'name': 'Cristiano Ronaldo dos Santos Aveiro GOIH ComM',
         'age': 37,
         'position': 'ST/LW',
@@ -36,21 +36,18 @@ const footballPlayers = {
     }
 }
 
-
-
-
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
 
-app.get('/api/:name', (request, response) => {
-    const player = request.params.name.toLowerCase()
+app.get('/api/:name', (request, response)=>{ //name is a query parameter
+    const player = request.params.name.toLowerCase() //request the parameters and attach to variable teaName
     if( footballPlayers[player] ){
-        response.json(footballPlayers[player]) 
+        response.json(footballPlayers[player])
     }else{
         response.json(footballPlayers['unknown'])
     }
-    console.log(json(footballPlayers))
+    // response.json(tea)
 })
 
 app.listen(process.env.PORT || PORT, () => {
