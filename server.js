@@ -7,12 +7,12 @@ app.use(cors())
 
 
 const footballPlayers = {
-    'michel Obi':{
+    'mikel Obi':{
         'name': 'Mikel John Obi',
         'age': 35,
         'position': 'CM/CDM',
         'club': 'chelsea',
-        'Nationality': 'zimbabwean'
+        'Nationality': 'Nigerian'
     },
     'messi':{
         'name': 'Lionel Andrés Messi',
@@ -25,13 +25,15 @@ const footballPlayers = {
         'name': 'Cristiano Ronaldo dos Santos Aveiro GOIH ComM',
         'age': 37,
         'position': 'ST/LW',
-        'club': 'Manchester Uniter'
+        'club': 'Manchester Uniter',
+        'Nationality': 'Portugal'
     },
     'unknown':{
         'name': 'unknown',
         'age': 'unknown',
         'position': 0,
-        'club': 'unknown'
+        'club': 'unknown',
+        'Nationality': 'unknown'
         
     }
 }
