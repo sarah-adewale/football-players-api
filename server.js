@@ -7,37 +7,50 @@ app.use(cors())
 
 
 const footballPlayers = {
-    'mikel Obi':{
-        'name': 'Mikel John Obi',
-        'age': 35,
+    'karim benzema':{
+        'name': 'Karim Mostafa Benzema',
+        'age': 34,
         'position': 'CM/CDM',
-        'goals': 50,
-        'club': 'chelsea',
-        'Nationality': 'Nigerian'
+        'career goals': 414,
+        'club': 'real madrid',
+        'Nationality': 'French',
+        'image': 'https://i.ibb.co/VmCZrmn/karim-benzema.png'
+    },
+     'mo salah':{
+        'name': 'Mohamed Salah',
+        'age': 30,
+        'position': 'Forward',
+        'career goals': 156,
+        'club': 'liverpool',
+        'Nationality': 'Egypt',
+        'image': 'https://i.ibb.co/jb9JMhR/1-C434-F5-A-B8-AB-4911-BFCE-AD9-FE2-F264-E4-2.png'
     },
     'messi':{
         'name': 'Lionel Andrés Messi',
         'age': 34,
         'position': 'CF/RW/ST',
-        'goals': 50,
+        'career goals': 768,
         'club': 'PSG',
-        'Nationality': 'Argentine'
+        'Nationality': 'Argentine',
+        'image': 'https://i.ibb.co/27Rscb1/New-Project-1.png'
     },
     'ronaldo':{
         'name': 'Cristiano Ronaldo dos Santos Aveiro GOIH ComM',
         'age': 37,
         'position': 'ST/LW',
-        'goals': 50,
+        'career goals': 815,
         'club': 'Manchester Uniter',
-        'Nationality': 'Portugal'
+        'Nationality': 'Portugal',
+        'image': 'https://i.ibb.co/Kx0F54p/ronaldo.png'
     },
     'unknown':{
         'name': 'unknown',
         'age': 'unknown',
         'position': 0,
-        'goals': 0,
+        'career goals': 0,
         'club': 'unknown',
-        'Nationality': 'unknown'
+        'Nationality': 'unknown',
+        'image': 'https://i.ibb.co/27Rscb1/New-Project-1.png'
         
     }
 }
