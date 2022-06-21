@@ -11,6 +11,7 @@ const footballPlayers = {
         'name': 'Mikel John Obi',
         'age': 35,
         'position': 'CM/CDM',
+        'goals': 50,
         'club': 'chelsea',
         'Nationality': 'Nigerian'
     },
@@ -18,6 +19,7 @@ const footballPlayers = {
         'name': 'Lionel Andrés Messi',
         'age': 34,
         'position': 'CF/RW/ST',
+        'goals': 50,
         'club': 'PSG',
         'Nationality': 'Argentine'
     },
@@ -25,6 +27,7 @@ const footballPlayers = {
         'name': 'Cristiano Ronaldo dos Santos Aveiro GOIH ComM',
         'age': 37,
         'position': 'ST/LW',
+        'goals': 50,
         'club': 'Manchester Uniter',
         'Nationality': 'Portugal'
     },
@@ -32,6 +35,7 @@ const footballPlayers = {
         'name': 'unknown',
         'age': 'unknown',
         'position': 0,
+        'goals': 0,
         'club': 'unknown',
         'Nationality': 'unknown'
         
