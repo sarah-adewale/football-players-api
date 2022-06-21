@@ -11,7 +11,7 @@ const footballPlayers = {
         'name': 'Karim Mostafa Benzema',
         'age': 34,
         'position': 'CM/CDM',
-        'career goals': 414,
+        'careerGoals': 414,
         'club': 'real madrid',
         'Nationality': 'French',
         'image': 'https://i.ibb.co/VmCZrmn/karim-benzema.png'
@@ -20,7 +20,7 @@ const footballPlayers = {
         'name': 'Mohamed Salah',
         'age': 30,
         'position': 'Forward',
-        'career goals': 156,
+        'careerGoals': 156,
         'club': 'liverpool',
         'Nationality': 'Egypt',
         'image': 'https://i.ibb.co/jb9JMhR/1-C434-F5-A-B8-AB-4911-BFCE-AD9-FE2-F264-E4-2.png'
@@ -29,7 +29,7 @@ const footballPlayers = {
         'name': 'Lionel Andrés Messi',
         'age': 34,
         'position': 'CF/RW/ST',
-        'career goals': 768,
+        'careerGoals': 768,
         'club': 'PSG',
         'Nationality': 'Argentine',
         'image': 'https://i.ibb.co/27Rscb1/New-Project-1.png'
@@ -38,7 +38,7 @@ const footballPlayers = {
         'name': 'Cristiano Ronaldo dos Santos Aveiro GOIH ComM',
         'age': 37,
         'position': 'ST/LW',
-        'career goals': 815,
+        'careerGoals': 815,
         'club': 'Manchester Uniter',
         'Nationality': 'Portugal',
         'image': 'https://i.ibb.co/Kx0F54p/ronaldo.png'
@@ -47,7 +47,7 @@ const footballPlayers = {
         'name': 'unknown',
         'age': 'unknown',
         'position': 0,
-        'career goals': 0,
+        'careerGoals': 0,
         'club': 'unknown',
         'Nationality': 'unknown',
         'image': 'https://i.ibb.co/27Rscb1/New-Project-1.png'
