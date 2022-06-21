@@ -23,7 +23,7 @@ const footballPlayers = {
         'careerGoals': 156,
         'club': 'liverpool',
         'Nationality': 'Egypt',
-        'image': 'https://i.ibb.co/jb9JMhR/1-C434-F5-A-B8-AB-4911-BFCE-AD9-FE2-F264-E4-2.png'
+        'image': 'https://i.ibb.co/yYZ3BNH/mo.png'
     },
     'messi':{
         'name': 'Lionel Andrés Messi',
