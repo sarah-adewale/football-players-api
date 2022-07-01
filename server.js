@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
+const { json } = require('express')
 const PORT = 1212
 
 app.use(cors())
@@ -247,6 +248,10 @@ const footballPlayers = {
 
 app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
+})
+
+app.get('/api', (request, response) => {
+    response.json(footballPlayers)
 })
 
 app.get('/api/:name', (request, response)=>{ //name is a query parameter
